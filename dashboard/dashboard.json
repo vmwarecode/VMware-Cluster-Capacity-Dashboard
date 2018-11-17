@@ -1,0 +1,550 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1542385028554,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "2adff863-972e-43d3-930c-f0a14a2b35e3",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/VMware Cluster Capacity Dashboard",
+      "namePath": "Custom Dashboards",
+      "rank": 353,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "21f89e75-8359-4e07-b8df-6a03e6532e44",
+            "widgetIdReceiver": "b557caf1-a003-4947-924c-65f49fcaa39f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "21f89e75-8359-4e07-b8df-6a03e6532e44",
+            "widgetIdReceiver": "195e7851-cb33-4229-8135-7dc715d3f8d6"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "21f89e75-8359-4e07-b8df-6a03e6532e44",
+            "widgetIdReceiver": "72c5b18c-306a-4ca2-ba5c-6781d8891e5b"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "21f89e75-8359-4e07-b8df-6a03e6532e44",
+            "widgetIdReceiver": "35dc0b21-4956-4926-a8f0-f86a616ac63f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "21f89e75-8359-4e07-b8df-6a03e6532e44",
+            "widgetIdReceiver": "95cea15b-9af7-4344-8f91-bc3c32a42dbf"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Parent Datacenter",
+                     "metricKey": "summary|parentDatacenter",
+                     "metricName": "Summary|Parent Datacenter",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Parent vCenter",
+                     "metricKey": "summary|parentVcenter",
+                     "metricName": "Summary|Parent vCenter",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Clusters"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 552,
+            "id": "21f89e75-8359-4e07-b8df-6a03e6532e44",
+            "states": [{
+               "key": "permResGrid_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_21f89e75-8359-4e07-b8df-6a03e6532e44",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A235%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A148%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A123%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Clusters",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel13825-1",
+                     "isStringMetric": false,
+                     "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                     "metricName": "Capacity Analytics Generated|Capacity Remaining Percentage",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Cluster Compute Resource",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Cluster Capacity Remaining (for selected Cluster)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 8,
+               "x": 5,
+               "y": 1
+            },
+            "height": 267,
+            "id": "b557caf1-a003-4947-924c-65f49fcaa39f",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_b557caf1-a003-4947-924c-65f49fcaa39f",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last60Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_b557caf1-a003-4947-924c-65f49fcaa39f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_b557caf1-a003-4947-924c-65f49fcaa39f",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_b557caf1-a003-4947-924c-65f49fcaa39f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_b557caf1-a003-4947-924c-65f49fcaa39f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_b557caf1-a003-4947-924c-65f49fcaa39f",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Cluster Capacity Remaining (for selected Cluster)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel14315-1",
+                     "isStringMetric": false,
+                     "metricKey": "OnlineCapacityAnalytics|timeRemaining",
+                     "metricName": "Capacity Analytics Generated|Time Remaining",
+                     "metricUnitId": "day",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Cluster Compute Resource",
+                     "unit": "Day(s)"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "Cluster Time Remaining (for selected Cluster)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 8,
+               "x": 5,
+               "y": 6
+            },
+            "height": 267,
+            "id": "195e7851-cb33-4229-8135-7dc715d3f8d6",
+            "states": [
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_195e7851-cb33-4229-8135-7dc715d3f8d6",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_195e7851-cb33-4229-8135-7dc715d3f8d6",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_195e7851-cb33-4229-8135-7dc715d3f8d6",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_195e7851-cb33-4229-8135-7dc715d3f8d6",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last60Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_195e7851-cb33-4229-8135-7dc715d3f8d6",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_195e7851-cb33-4229-8135-7dc715d3f8d6",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Cluster Time Remaining (for selected Cluster)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15298-1",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|cpu|demand|capacityRemaining",
+                        "metricName": "Capacity Analytics Generated|CPU|Demand|Capacity Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15298-2",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|cpu|demand|recommendedSize",
+                        "metricName": "Capacity Analytics Generated|CPU|Demand|Recommended Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15298-3",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|cpu|demand|recommendedTotalSize",
+                        "metricName": "Capacity Analytics Generated|CPU|Demand|Recommended Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15298-4",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|cpu|demand|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|CPU|Demand|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Cluster CPU Capacity (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 11
+            },
+            "height": 210,
+            "id": "72c5b18c-306a-4ca2-ba5c-6781d8891e5b",
+            "title": "Cluster CPU Capacity (for selected Cluster)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16292-1",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|mem|demand|capacityRemaining",
+                        "metricName": "Capacity Analytics Generated|Memory|Demand|Capacity Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16292-2",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|mem|demand|recommendedSize",
+                        "metricName": "Capacity Analytics Generated|Memory|Demand|Recommended Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16292-3",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|mem|demand|recommendedTotalSize",
+                        "metricName": "Capacity Analytics Generated|Memory|Demand|Recommended Total Capacity",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16292-4",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|mem|demand|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Memory|Demand|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Cluster Memory Capacity (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 11
+            },
+            "height": 210,
+            "id": "35dc0b21-4956-4926-a8f0-f86a616ac63f",
+            "title": "Cluster Memory Capacity (for selected Cluster)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16851-1",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|diskspace|demand|capacityRemaining",
+                        "metricName": "Capacity Analytics Generated|Disk Space|Demand|Capacity Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16851-2",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|diskspace|demand|recommendedSize",
+                        "metricName": "Capacity Analytics Generated|Disk Space|Demand|Recommended Size",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16851-3",
+                        "isStringMetric": false,
+                        "metricKey": "OnlineCapacityAnalytics|diskspace|demand|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Disk Space|Demand|Time Remaining",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Cluster Disk Capacity (for selected Cluster)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 12,
+               "x": 1,
+               "y": 15
+            },
+            "height": 96,
+            "id": "95cea15b-9af7-4344-8f91-bc3c32a42dbf",
+            "title": "Cluster Disk Capacity (for selected Cluster)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "OnlineCapacityAnalytics|capacityRemainingPercentage",
+                     "value": "Capacity Analytics Generated|Capacity Remaining Percentage (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREClusterComputeResource",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Cluster Compute Resource",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "cluster capacity",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:0_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "title": "Cluster Capacity Heatmap",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 17
+            },
+            "height": 210,
+            "id": "fa298434-d6b7-4e49-9f3f-b5f799b1b745",
+            "states": [{
+               "key": "perm_HeatMap_widget_2adff863-972e-43d3-930c-f0a14a2b35e3_fa298434-d6b7-4e49-9f3f-b5f799b1b745",
+               "value": "o%3A"
+            }],
+            "title": "Cluster Capacity Heatmap",
+            "type": "Heatmap"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "VMWARE",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "ClusterComputeResource"
+   }]},
+   "uuid": "61183ea3-7ecd-42e9-940b-ccc09f93fc05"
+}
